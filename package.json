@@ -1,0 +1,21 @@
+{
+  "name": "pmvcorp",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Sean Atangan",
+  "license": "ISC",
+  "engines": {
+    "node": "16.14.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.7",
+    "express": "^4.18.0",
+    "jquery": "^3.6.0",
+    "lightbox2": "^2.11.3"
+  },
+  "description": "PMV Starting Files"
+}

@@ -1,0 +1,382 @@
+h1, h2, h3, body, .nav-link {
+  font-family: "PT Sans";
+}
+
+body {
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Page Size */
+.constrained {
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+/* Headings */
+body .section-left {
+  text-align: left;
+  padding: 3rem 4rem;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* Containers */
+.container-tiny {
+  padding: 2%;
+}
+
+.container-small {
+  padding: 4.5%;
+}
+
+.container-fluid {
+  padding: 7% 10%
+}
+
+.container-fluid-lg {
+  padding: 10% 5% 7%;
+}
+
+.container-fluid-lg2 {
+  padding: 10% 1% 5%;
+}
+
+.container-fluid-lg3 {
+  padding: 0 7% 0 7%;
+}
+
+.light-text {
+  color: #fafafa;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #324e6e;
+  color: white;
+}
+
+.colored-section2 {
+  background-image: linear-gradient(#1d3045, #324e6e, #324e6e, #324e6e, #324e6e, #1d3045);
+  /* background-image: linear-gradient( #8ca3ba, #8ca3ba, #8ca3ba, #8ca3ba, #778a9e, #3e4752); */
+  background-color: #ACC7E6;
+  color: white;
+}
+
+.white-section {
+  background-image: linear-gradient(#d3dce0, #fafafa, #fafafa, #fafafa, #f7f9fa, #d3dce0);
+}
+
+.footer-section {
+  background-image: linear-gradient(#1d1e1f, #070807);
+}
+
+/* Buttons */
+.btn-primary, .btn-outline, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #324e6e !important;
+}
+
+.btn-light, .btn-outline-dark, .btn-light:active {
+  background-color: #fafafa !important;
+}
+
+#home-title .btn:hover {
+  background-color: #ACC7E6 !important;
+}
+
+.strong-button {
+  font-family: "PT Sans";
+  font-size: 1.2rem;
+}
+
+
+
+/* Hero Images */
+
+.home-hero1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../compressed/Heros/11b.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.home-hero2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../compressed/People/pmv-chicago-installations-temps-workers-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.installations-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../compressed/Heros/5a.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.temps-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../compressed/People/pmv-chicago-installations-temps-workers-9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.page-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../compressed/Heros/2b.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+/* Images */
+
+.credentials-img {
+  width: 800px;
+  border: 1px;
+}
+
+.why-img {
+  width: 600px;
+}
+
+.relationships-img {
+  width: 600px;
+}
+
+.tier-img {
+  width: 100%;
+}
+
+.workers-img {
+  width: 100%;
+}
+
+.point-img {
+  width: 100%;
+}
+
+.p-img {
+  border-radius: 5px;
+}
+
+@media (max-width: 1600px) {
+  .credentials-img {
+    width: 600px;
+    border: 1px;
+  }
+
+  .why-img {
+    width: 500px;
+  }
+
+  .relationships-img {
+    width: 500px;
+  }
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+}
+
+/* Carousel */
+
+.carousel-control-next,
+.carousel-control-prev
+/*, .carousel-indicators */
+  {
+  filter: invert(100%);
+  width: 5%;
+}
+
+/* Lightbox */
+
+img.preview, img.modal-preview {
+  opacity: 1;
+}
+
+img.active,
+.preview:hover,
+.modal-preview:hover {
+  opacity: 0.7;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.previous,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.previous:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Navigation Bar */
+
+.navbar-expand-lg {
+  padding: 0 0 0;
+  background-color: #fafafa;
+}
+
+body .navbar-brand {
+  text-align: left;
+  color: #415eaa;
+  font-family: "Kanit";
+  font-size: 1.5rem;
+}
+
+.button-icon {
+  /* padding-bottom: 80px; */
+  color: #3a55a8;
+}
+
+.logo {
+  width: 12%;
+  padding: 0 10px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* Download Buttons */
+.title-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.picture {
+  position: relative;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  margin-top: 25px;
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-row {
+  margin-top: 0;
+  text-align: left;
+}
+
+/* Feature Section */
+
+.feature-title {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.icon {
+  color: #ACC7E6;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #3a55a8;
+}
+
+/* Testimonial Section */
+#testimonials {
+  padding-bottom: 3%;
+}
+
+.testimonial-text {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.tier-column {
+  padding: 3% 2%;
+}
+
+.social-icon {
+  padding: 10px 20px;
+  color: grey;
+}
+
+.form-signin2 {
+  width: 100%;
+  max-width: 1500px;
+  padding: 5px 5px 5px 5px;
+  margin: auto;
+}
+
+/* Contact Page */
+
+.form-signin {
+  width: 100%;
+  max-width: 1000px;
+  padding: 60px 15px 15px 15px;
+  margin: auto;
+}
+
+/* Footer Section */
+
+#footer .logo {
+  width: 85%;
+  color: black;
+}
