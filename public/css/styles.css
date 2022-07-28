@@ -107,21 +107,21 @@ body .section-left {
 /* Hero Images */
 
 .home-hero1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../compressed/Heros/2a.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../compressed/Heros/11b.JPG");
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: fixed;
 }
 
 .home-hero2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../compressed/People/pmv-chicago-installations-temps-workers-1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../compressed/People/pmv-chicago-installations-temps-workers-1.JPG");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .installations-hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../compressed/Heros/5a.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../compressed/Heros/5a.JPG");
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: fixed;
